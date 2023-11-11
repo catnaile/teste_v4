@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Pavê ou pacomê?</title>	
+	<link rel="stylesheet" href="css/envios.css">
+</head>
+<body>
+   <header>
+       <a href="index.html" ><img src="imagens/imgprinc.png" alt="Logo" id="menu"></a>
+	   <p> <a href="login.html"><img src="imagens/conta.png" alt="Login" id="login"></a> </p>
+	   <p id="envio"><a href="envio.html" >Envie sua receita!</a> </p>
+       <nav class="clear">
+	    <ul>
+		  <li><a href="Massas/massas.html" class="n_links" >Massas</a> </li>
+		  <li><a href="Sobremesas/sobremesas.html" class="n_links" >Sobremesas</a> </li>
+		  <li><a href="lanesel/les.html" class="n_links" >Lanches e salgados</a> </li>
+		  <li><a href="salecel/sec.html" class="n_links" >Saladas e cereais</a> </li>
+		  <li><a href="Carnes/carnes.html" class="n_links" >Carnes</a></li>
+		</ul>
+	   </nav>
+   </header>
+   
+   <main>
+    <h1>Envie sua receita!</h1>
+    
+	<form action="index.html">
+	
+	<fieldset>
+	<legend>Sobre você</legend>
+		<label for="nome">Nome:</label>
+		<input type="text" name="nome" id="nome" maxlenght="20" required pattern="[aA-zZ\s]+$">
+	
+		<label for="sobrenome">Sobrenome:</label>
+		<input type="text" name="sobrenome" id="sobrenome" maxlenght="50" required pattern="[aA-zZ\s]+$">
+	
+		<label for="numero">Número:</label>
+		<input type="text" name="numero" id="numero" required pattern="[0-9]+$">
+		<br>
+		<label for="email">E-mail:</label>
+		<input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+	</fieldset>
+	
+	<fieldset>
+	<legend>Sobre a receita</legend>
+		<label for="tit">Título da receita:</label>
+		<input type="text" name="titulo" id="tit" required pattern="[aA-zZ\s]+$">
+		
+		<label for="">Categoria:</label>
+		<select name="categoria" id="cat">
+			<option>Massas</option>
+			<option>Sobremesas</option>
+			<option>Lanches e salgados</option>
+			<option>Saladas e cereais</option>
+			<option>Carnes</option>
+		</select>
+
+		<p>
+		<label for="porc">Quantidade de porções:</label>
+		<input type="text" name="porcoes" id="porc" class="numbers" required pattern="[0-9]+$">
+	
+		<label for="tempo">Tempo de preparo (min):</label>
+		<input type="text" name="tempo" id="tempo" class="numbers" required pattern="[0-9]+$">
+		</p>
+		<div class="t_area" >
+			<p>
+			<label for="ip">Ingredientes e porções:</label>
+			</p>
+			<textarea name="ip" id="ip" required></textarea>
+		</div>
+		<div class="t_area" >
+			<p>
+			<label for="md">Modo de preparo:</label>
+			</p>
+			<textarea name="modo de preparo" id="md" required></textarea>
+		</div>
+	
+	</fieldset>
+	
+	<input type="submit" id="submit" >
+	</form>
+   </main>
+   
+   
+   <footer>
+	   <section class="clear" >
+       <img src="imagens/Logo.png" alt="Logo" id="rodape" >
+	   </section>
+	   
+	   <section class="colunas" >
+	      <h3>Sobre nós</h3>
+		  <ul>
+		    <li><a href="index.html">Contato</a></li>
+			<li><a href="index.html">Sobre nós</a></li>
+			<li><a href="index.html">Termos de uso</a></li>
+		  <ul>
+	   </section>
+	   
+	   <section class="colunas" >
+	      <h3>Categorias</h3>
+		  <ul>
+			<li><a href="Massas/massas.html">Massas</a></li>
+			<li><a href="Sobremesas/sobremesas.html">Sobremesas</a> </li>
+			<li><a href="lanesel/les.html">Lanches e salgados</a></li>
+			<li><a href="salecel/sec.html">Saladas e cereais</a> </li>
+			<li><a href="Carnes/carnes.html">Carnes</a> </li>
+		  <ul>
+	   </section>
+           <p id="creditos" >Website feito por Caroline</p>
+   </footer>
+   
+</body>
+</html>

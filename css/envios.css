@@ -1,0 +1,169 @@
+	
+	a {
+		text-decoration: none;
+		color: #181a19;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}	
+	
+	#menu {
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	
+	#login {
+		top: 80px;
+		float: right;
+		width: 60px;
+		height: 60px;
+		margin: 35px 20px 0px 20px;
+	}
+	
+	#envio {
+		float: right;
+		left: 40px;
+		width: 90px;
+		font-size: 20px;
+		margin: 40px 10px 0px 20px;
+	}
+	
+	nav ul li{
+		display: inline;
+		margin: 5%;
+		padding: 5px; 
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	nav{
+		text-align: center;
+		background-color: #6E9987;
+		padding: 1px;
+		border: 2px solid #6E9987;
+		border-top-color: #dee0df;
+	}
+	
+	.n_links {
+		color: white;
+	}
+	
+	
+
+
+	h1 {
+		margin: 30px;
+		margin-left: 60px;
+		margin-top:60px;
+	}
+	
+
+	fieldset {
+		width: 88%;
+		border-radius: 10px;
+		border-color: #7a645b;
+		padding-left: 20px;
+		margin-left: 60px;
+		margin-top: 20px;
+	}
+
+	legend {
+		font-size: 20px;
+		font-weight: bold;
+		padding: 10px;
+	}
+	
+	label {
+		margin-left: 10px;
+	}
+
+	input {
+		width: 200px;
+		background-color: #f2f2f2;
+		border: 2px solid #dee0df;
+		border-radius: 5px;
+		padding: 5px;
+		margin: 10px;
+	}
+	
+	#cat {
+		width: 140px;
+		background-color: #f2f2f2;
+		border: 2px solid #dee0df;
+		border-radius: 5px;
+	}
+	
+	input.numbers {
+		width: 100px;
+	}
+	
+	.t_area {
+		float: left;
+		width: 550px;
+		margin-bottom: 10px;
+	}
+	
+	textarea {
+		width: 350px;
+		height: 140px;
+		background-color: #f2f2f2;
+		border: 2px solid #dee0df;
+		border-radius: 5px;
+		margin-left: 10px;
+	}
+
+	input#submit {
+		width: 140px;
+		height: 45px;
+		background-color: #72b096;
+		border: 2px solid #72b096;
+		border-radius: 80px;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 15px;
+		margin-left: 42%;
+	}
+
+
+
+
+
+
+	
+	#rodape {
+		float: left;
+		width: 200px;
+		height: 200px;
+		margin-top: 100px;
+		margin-left: 30%;
+	}
+	
+	section.colunas {
+		float: left;
+		margin: 5px;
+		margin-top: 105px;
+	}
+	
+	section.colunas ul li {
+		list-style-image: url("../imagens/pata.png");
+	}
+	
+	.clear {
+		clear: left;
+	}
+	
+	#creditos{
+		float: left;
+		clear: both;
+		margin-top: 15px;
+		margin-left: 42%;
+	}
+	
+	body {
+		font-family: "gill sans", sans-serif;
+	}
+	

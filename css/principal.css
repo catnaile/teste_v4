@@ -1,0 +1,139 @@
+	
+	a {
+		text-decoration: none;
+		color: #181a19;
+	}
+	
+	a:hover {
+		text-decoration: underline;
+	}	
+	
+	#menu {
+		float: left;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	
+	#login {
+		top: 80px;
+		float: right;
+		width: 60px;
+		height: 60px;
+		margin: 35px 20px 0px 20px;
+	}
+	
+	#envio {
+		float: right;
+		left: 40px;
+		width: 90px;
+		font-size: 20px;
+		margin: 40px 10px 0px 20px;
+	}
+	
+	nav ul li{
+		display: inline;
+		margin: 5%;
+		padding: 5px; 
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	nav{
+		text-align: center;
+		background-color: #6E9987;
+		padding: 1px;
+		border: 2px solid #6E9987;
+		border-top-color: #dee0df;
+	}
+	
+	.n_links {
+		color: white;
+	}
+	
+	
+	
+	
+	h2 {
+		margin-top: 70px;
+		margin-left: 9.5%;
+		font-size: 45px;
+	}	
+	
+	section.amostra {
+		width: 1100px;
+		height: 800px;
+		margin-left: 6%;
+		padding: 10px;
+	}	
+	
+	article {
+		float: left;
+		width: 460px;
+		height: 370px;
+		margin-left: 5%;
+		margin-bottom: 30px;
+		text-align: center;
+		background-color: #ededed;
+		border-radius: 10px;
+	}
+	
+	p.name {
+		font-size: 22px;
+		font-weight: bold;
+		color: #2d403d;
+	}
+	
+	img.content {
+		width: 460px;
+		height: 290px;
+		border-radius: 10px;
+	}	
+	
+	p.name:hover {
+		color: #614060;
+	}
+	
+	
+	
+	
+	
+	
+	#rodape {
+		float: left;
+		width: 200px;
+		height: 200px;
+		margin-top: 100px;
+		margin-left: 30%;
+	}
+	
+	section.colunas {
+		float: left;
+		margin: 5px;
+		margin-top: 105px;
+	}
+	
+	section.colunas ul li {
+		list-style-image: url("../imagens/pata.png");
+	}
+	
+	.clear {
+		clear: left;
+	}
+	
+	#creditos{
+		float: left;
+		clear: both;
+		margin-top: 15px;
+		margin-left: 42%;
+	}
+	
+	@font-face {
+		font-family: BrandonText;
+		src: url(fonte/BrandonText.oft);
+	}
+	
+	h1 {
+		font-family: BrandonText, serif;
+	}
+	
